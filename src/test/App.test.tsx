@@ -11,7 +11,7 @@ describe('App Component Integration', () => {
   it('기본 화면이 정상 렌더링되고 빈 상태 안내가 표시된다', () => {
     render(<App />);
 
-    expect(screen.getByRole('heading', { level: 1, name: '나의 할 일' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { level: 1, name: '꼭 해야 할 일' })).toBeInTheDocument();
     expect(screen.getByText('작은 실천으로 채우는 하루')).toBeInTheDocument();
     expect(screen.getByText('아직 할 일이 없어요')).toBeInTheDocument();
     expect(screen.getByRole('button', { name: '첫 할 일 입력하기' })).toBeInTheDocument();

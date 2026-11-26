@@ -1,4 +1,4 @@
-# 나의 할 일 (TodoList 웹앱)
+# 꼭 해야 할 일 (TodoList 웹앱)
 
 작은 실천으로 채우는 하루를 위한 한국어 개인용 TodoList 웹애플리케이션입니다.  
 디자인 시스템 명세서([DESIGN.md](file:///c:/Users/User/Desktop/Antigravity/WEB/todo-list/DESIGN.md))의 디자인 토큰과 UI/UX 지침을 100% 준수하여 구현되었습니다.
